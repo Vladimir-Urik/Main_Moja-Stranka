@@ -18,17 +18,16 @@
     <div class="w3-bar w3-card" style="background-color: #55b655;">
         <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <a href="#" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large">Domov</a>
-        <a href="#tour" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kalendár</a>
-        <a href="#contact" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kontakt</a>
+        <a href="#kalendar" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kalendár</a>
+        <a href="#kontakt" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kontakt</a>
         <div class="w3-dropdown-hover w3-hide-small">
             <button style="color: white !important;" class="w3-padding-large w3-button" title="More">Moje projekty <i class="fa fa-caret-down"></i></button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4" style="background-color: #399539;">
-                <a href="#" style="color: white !important;" class="w3-bar-item w3-button">Merchandise</a>
-                <a href="#" style="color: white !important;" class="w3-bar-item w3-button">Extras</a>
-                <a href="#" style="color: white !important;" class="w3-bar-item w3-button">Media</a>
+                <a href="https://thumbie.me" style="color: white !important;" class="w3-bar-item w3-button">Thumbie</a>
+                <a href="https://greenlandmc.eu" style="color: white !important;" class="w3-bar-item w3-button">GreenLandMC</a>
+                <a href="https://g-host.tech" style="color: white !important;" class="w3-bar-item w3-button">G Host</a>
             </div>
         </div>
-        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
     </div>
 </div>
 
@@ -43,10 +42,9 @@
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    <a href="#" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large">Domov</a>
+    <a href="#kalendar" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kalendár</a>
+    <a href="#kontakt" style="color: white !important;" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Kontakt</a>
 </div>
 
 <!-- Page content -->
@@ -70,22 +68,22 @@
         <p class="w3-opacity"><i>Mojich pár Experimentov</i></p>
         <div class="w3-row w3-padding-32">
             <div class="w3-third">
-                <p>Name</p>
-                <a><img src="https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg" class="onHover w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
+                <p>Thumbie</p>
+                <a href="https://thumbie.me"><img src="thumbie2.png" class="onHover w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
             </div>
             <div class="w3-third">
-                <p>Name</p>
-                <a><img src="https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg" class="onHover w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
+                <p>GreenLandMC</p>
+                <a href="https://greenlandmc.eu"><img src="https://cdn.discordapp.com/icons/653992879164751872/cd7457ac328d02a076fe71dda57e916c.webp?size=128" class="onHover w3-round w3-margin-bottom" alt="Random Name" style="width:60%"></a>
             </div>
             <div class="w3-third">
-                <p>Name</p>
-                <a><img src="https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_960_720.jpg" class="onHover w3-round" alt="Random Name" style="width:60%"></a>
+                <p>G Host</p>
+                <a href="https://g-host.tech"><img src="ghost.png" class="onHover w3-round" alt="Random Name" style="width:60%"></a>
             </div>
         </div>
     </div>
 
     <!-- The Tour Section -->
-    <div style="background-color: #55b655;" id="tour">
+    <div style="background-color: #55b655;" id="kalendar">
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
             <h2 class="w3-wide w3-center" style="color: whitesmoke;">Môj kalendár</h2>
             <p class="w3-opacity w3-center" style="color: whitesmoke;"><i>Chceš vediet kedy mám čas pomôct práve tebe?</i></p><br>
@@ -107,7 +105,7 @@
                         <p><b>Ach to prázdno...</b></p>
                         <p class="w3-opacity">?? ?? ?? 20??</p>
                         <p>Tu môže byt zrovna tvoj projekt!</p>
-                        <button class="w3-button w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="background-color: #55b655; color: white;">Viac</button>
+                        <button class="w3-button w3-margin-bottom" style="background-color: #55b655; color: white;">Viac</button>
                     </div>
                 </div>
                 <div class="w3-third w3-margin-bottom">
@@ -116,7 +114,7 @@
                         <p><b>Ach to prázdno...</b></p>
                         <p class="w3-opacity">?? ?? ?? 20??</p>
                         <p>Tu môže byt zrovna tvoj projekt!</p>
-                        <button class="w3-button w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="background-color: #55b655; color: white;">Viac</button>
+                        <button class="w3-button w3-margin-bottom" style="background-color: #55b655; color: white;">Viac</button>
                     </div>
                 </div>
                 <div class="w3-third w3-margin-bottom">
@@ -125,7 +123,7 @@
                         <p><b>Ach to prázdno...</b></p>
                         <p class="w3-opacity">?? ?? ?? 20??</p>
                         <p>Tu môže byt zrovna tvoj projekt!</p>
-                        <button class="w3-button w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="background-color: #55b655; color: white;">Viac</button>
+                        <button class="w3-button w3-margin-bottom" style="background-color: #55b655; color: white;">Viac</button>
                     </div>
                 </div>
             </div>
@@ -153,7 +151,7 @@
     </div>
 
     <!-- The Contact Section -->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="kontakt">
         <h2 class="w3-wide w3-center">Kontakt</h2>
         <p class="w3-opacity w3-center"><i>Maš zaujem o moju prácu alebo cenovú ponuku? Neváhaj ma kontaktovat!</i></p>
         <div class="w3-row w3-padding-32">
