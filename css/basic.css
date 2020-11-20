@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+* {
+    overflow-y: hidden;
+}
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    height: 50vh;
+    width: 40vh;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 1vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.card .discord {
+    background-color: rgba(62, 59, 59, 0.4);
+    padding-top: 4vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    border-radius: 1vh;
+    transition: all 0.2s;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.card .discord:hover {
+    background-color: rgba(62, 59, 59, 0.32);
+    padding-top: 4vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    border-radius: 1vh;
+    transition: all 0.2s;
+}
+
+.card .twitter {
+    background-color: rgba(62, 59, 59, 0.4);
+    padding-top: 4vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    border-radius: 1vh;
+    transition: all 0.2s;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.card .twitter:hover {
+    background-color: rgba(62, 59, 59, 0.32);
+    padding-top: 4vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    border-radius: 1vh;
+    transition: all 0.2s;
+}
+
+.tptm {
+    fill: #85bdff;
+    transition: all 0.3s;
+}
+
+.card .twitter:hover .tptm {
+    fill: #51a3ff;
+    transition: all 0.3s;
+}
+
+.ptm {
+    fill: #c2baff;
+    transition: all 0.3s;
+}
+
+.card .discord:hover .ptm {
+    fill: #9281fc;
+    transition: all 0.3s;
+}
+
+.card h1 {
+    color: #ffb593;
+    font-family: 'Karla', sans-serif;
+}
+
+.card h3 {
+    color: #ac9388;
+    font-family: 'Karla', sans-serif;
+}
